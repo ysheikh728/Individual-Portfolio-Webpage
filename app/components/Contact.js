@@ -18,8 +18,13 @@ const Contacts = () => {
         <h2 className="text-center text-2xl font-semibold mb-6">
              Contact Information
         </h2>
-        <Link className="text-xl font-semibold text-balck underline underline-offset-1" href='/' >LinkedIn</Link>
-        <Link className="text-xl font-semibold text-black underline underline-offset-1" href='/' >Github</Link>
+        <Link href="https://www.linkedin.com/in/yahyasheikh28/">
+  <a className="text-xl font-semibold text-black underline underline-offset-1">LinkedIn</a>
+</Link>
+<Link href="https://github.com/ysheikh728">
+  <a className="text-xl font-semibold text-black underline underline-offset-1">GitHub</a>
+</Link>
+
         <Link className="text-xl font-semibold text-black" href='/' >Resume?</Link>
        
         <div className="bg-gray-400 w-60 rounded-full p-2" >
