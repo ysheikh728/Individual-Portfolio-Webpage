@@ -5,6 +5,16 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     <div id='home' className="relative bg-amber-50 text-black p-16">
+    {/* Google Analytics Script */}
+      <Script strategy="afterInteractive">
+        {`
+          // Your Google Analytics script here
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-M9RX98XYNX');
+        `}
+      </Script>
       {/* Background lines */}
       <div className='w-4/6 container mx-40 flex justify-around items-center'>
         {/* Intro Text */}
