@@ -1,6 +1,7 @@
 import user_img from '../../public/image/prof.png';
 import bf_img from '../../public/image/bg.png';
 import Image from 'next/image';
+import Script from 'next/script'; // Import the Script component
 
 const HeroSection = () => {
   return (
