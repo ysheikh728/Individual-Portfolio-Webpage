@@ -24,14 +24,9 @@ const Contacts = () => {
 <Link href="https://github.com/ysheikh728">
   <a className="text-xl font-semibold text-black underline underline-offset-1">GitHub</a>
 </Link>
-
-        <Link className="text-xl font-semibold text-black" href='/' >Resume?</Link>
-       
-        <div className="bg-gray-400 w-60 rounded-full p-2" >
-        <span className="bg-green-500 rounded-full p-2" >submit</span>
-        <span className="ml-8">Email Address</span>
-        </div>
-
+<Link href="http://eepurl.com/ixvRTI">
+  <a className="text-xl font-semibold text-black underline underline-offset-1">Request My Resume!</a>
+</Link>
 
         </div>
 
