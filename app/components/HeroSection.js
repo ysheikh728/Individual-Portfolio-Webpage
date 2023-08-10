@@ -1,13 +1,13 @@
 import user_img from '../../public/image/prof.png';
 import bf_img from '../../public/image/bg.png';
 import Image from 'next/image';
-import Script from 'next/script'; // Import the Script component
+import Script from 'next/script';
 
 const HeroSection = () => {
   return (
     <div id='home' className="relative bg-amber-50 text-black p-16">
-    {/* Google Analytics Script */}
-      <Script strategy="afterInteractive">
+      {/* Google Analytics Script */}
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
           // Your Google Analytics script here
           window.dataLayer = window.dataLayer || [];
@@ -16,6 +16,7 @@ const HeroSection = () => {
           gtag('config', 'G-M9RX98XYNX');
         `}
       </Script>
+
       {/* Background lines */}
       <div className='w-4/6 container mx-40 flex justify-around items-center'>
         {/* Intro Text */}
@@ -58,7 +59,7 @@ const HeroSection = () => {
         {/* Bottom Right Position */}
         <div className="text-2xl text-center mr-40 mb-2">
           <h3> Senior Enterprise</h3>
-          <h3> Bussiness development</h3>
+          <h3> Business development</h3>
           <h3> Associate</h3>
         </div>
       </div>
