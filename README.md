@@ -4,19 +4,8 @@ Welcome to my individual portfolio webpage repository! This repository contains 
 
 You can visit my live portfolio webpage by clicking [here](https://ysheikh728.github.io/Individual-Portfolio-Webpage/).
 
-## Description
+## Final Presentation
+You can also view an overview of my live portfolio webpage by clicking [here](https://ysheikh728.github.io/Individual-Portfolio-Webpage/).
 
-This portfolio webpage showcases my skills, projects, and experiences as a web developer. It is designed to provide an overview of my work and accomplishments.
-
-## Features
-
-- Detailed information about my skills and expertise.
-- Showcase of projects I have worked on.
-- Contact information for getting in touch with me.
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- [Playwright](https://playwright.dev/) for automated testing
+## Figma Design
+This is my figma link that showcases the pre-design of my live portfolio webpage: [here](https://ysheikh728.github.io/Individual-Portfolio-Webpage/).
