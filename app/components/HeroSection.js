@@ -49,7 +49,7 @@ const HeroSection = () => {
         
           {/* Bottom Right Position */}
           <div className="text-2xl text-center mr-40 mb-2">
-           <h3> Senior Enterprises</h3>
+           <h3> Senior Enterprise</h3>
            <h3> Bussiness development</h3>
            <h3> Associate</h3>
            
